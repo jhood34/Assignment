@@ -1,0 +1,9 @@
+# Ignore everything in the workspace by default
+/*
+
+# Allow the global gitignore itself so the rule persists
+!.gitignore
+
+# Allow the style-transfer-agent-iteration project to be tracked
+!style-transfer-agent-iteration/
+!style-transfer-agent-iteration/**
